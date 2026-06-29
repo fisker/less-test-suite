@@ -1,6 +1,6 @@
 {
   "name": "less-test-suite",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "LESS Parsing Test Suite.",
   "homepage": "https://github.com/fisker/less-test-suite#readme",
   "bugs": {
