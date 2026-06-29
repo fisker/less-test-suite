@@ -48,7 +48,7 @@
     "test:js": "node --test",
     "test:types": "tsd",
     "test-coverage": "c8 yarn test",
-    "update": "yarn build"
+    "update": "yarn up @less/test-data && yarn build"
   },
   "c8": {
     "include": [
