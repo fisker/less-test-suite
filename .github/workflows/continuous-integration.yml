@@ -26,8 +26,6 @@ jobs:
         #     node_version: "12"
     name: Node.js ${{ matrix.node_version }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    env:
-      YARN_ENABLE_IMMUTABLE_INSTALLS: false
     # needs: [build]
     steps:
       - name: Checkout
@@ -39,7 +37,7 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn --no-immutable
 
       # - name: Download Artifact
       #   uses: actions/download-artifact@v4
@@ -60,8 +58,6 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
-    env:
-      YARN_ENABLE_IMMUTABLE_INSTALLS: false
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -70,7 +66,7 @@ jobs:
         uses: actions/setup-node@v6
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn --no-immutable
 
       - name: Run Lint
         run: yarn lint
@@ -78,8 +74,6 @@ jobs:
   # build:
   #   name: Build
   #   runs-on: ubuntu-latest
-  #   env:
-  #     YARN_ENABLE_IMMUTABLE_INSTALLS: false
   #   steps:
   #     - name: Checkout
   #       uses: actions/checkout@v4
@@ -88,7 +82,7 @@ jobs:
   #       uses: actions/setup-node@v4
 
   #     - name: Install Dependencies
-  #       run: yarn
+  #       run: yarn --no-immutable
 
   #     - name: Build Package
   #       run: yarn build
