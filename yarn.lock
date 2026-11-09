@@ -676,10 +676,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@less/test-data@npm:4.6.7":
-  version: 4.6.7
-  resolution: "@less/test-data@npm:4.6.7"
-  checksum: 10/9a1f75942fb9b4eb471616d09e997c035f2d7c863c169b142438b2065d18891e8a1a00a927c326aca215f8334e9f6a19c32a3afd835cc19752fee0194f6bf4e0
+"@less/test-data@npm:4.9.1":
+  version: 4.9.1
+  resolution: "@less/test-data@npm:4.9.1"
+  checksum: 10/a608bfd2c42fb14575a62e428cbb5e1c0371d0c912042d78562d9e97779df8924f0966261c7ac660f6bf94f6c5156804c44d44f0a532fc59e90c7640ce332d83
   languageName: node
   linkType: hard
 
@@ -3061,7 +3061,7 @@ __metadata:
     "@fisker/markdownlint-cli2-config": "npm:0.1.0"
     "@fisker/prettier-config": "npm:6.0.0"
     "@fisker/release-it-config": "npm:6.0.2"
-    "@less/test-data": "npm:4.6.7"
+    "@less/test-data": "npm:4.9.1"
     c8: "npm:11.0.0"
     del-cli: "npm:7.0.0"
     eslint: "npm:10.6.0"
