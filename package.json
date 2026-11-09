@@ -68,7 +68,7 @@
     "@fisker/release-it-config": "6.0.2",
     "@less/test-data": "4.6.7",
     "c8": "11.0.0",
-    "del-cli": "7.0.0",
+    "del-cli": "8.0.1",
     "eslint": "10.6.0",
     "imurmurhash-esm": "0.0.2",
     "markdownlint-cli2": "0.22.1",
