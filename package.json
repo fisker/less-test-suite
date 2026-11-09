@@ -75,7 +75,7 @@
     "npm-run-all2": "9.0.2",
     "outdent": "0.8.0",
     "prettier": "3.9.1",
-    "release-it": "20.2.1",
+    "release-it": "21.1.2",
     "sort-package-json": "4.0.0",
     "tsd": "0.33.0",
     "write-prettier-file": "3.0.3"
